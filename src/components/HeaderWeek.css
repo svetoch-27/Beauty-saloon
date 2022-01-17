@@ -1,0 +1,201 @@
+
+.HeaderWeek {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 15px 5px 15px;
+    padding: 15px 15px 15px 15px;
+    
+    border: 1px solid rgb(112, 76, 119);
+    border-radius: 10px;
+    
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+  }
+
+  .HeaderWeekRow{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Tr_L-Week {
+    border: 10px solid transparent; 
+    border-right: 10px solid aqua;    
+    margin: 5px 5px 5px 5px;
+  }
+
+  .Tr_L-Week:after {
+    content: '';
+    position: absolute;
+
+    border: 10px solid transparent; 
+    border-right: 10px solid aqua;    
+    margin: -10px 5px -5px -2px;
+  }
+
+  
+
+  .Tr_L-Week:hover{
+   /* box-shadow: 1px 1px 1px rgb(24, 216, 174), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px red;
+    */    
+    border-right: 10px solid green;      
+    border-radius: 30px;    
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+    box-shadow: -5px -5px 15px red, -5px 5px 15px yellow, 5px -5px 15px green, 6px 6px 15px blue;
+  }
+
+  .Tr_L-Day {
+    border: 10px solid transparent; 
+    border-right: 10px solid aqua;    
+    margin: 5px 5px 5px 5px;
+  }
+
+  .Tr_L-Day:hover{
+   /* box-shadow: 1px 1px 1px rgb(24, 216, 174), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px red;
+    */    
+    border-right: 10px solid green;      
+    border-radius: 30px;    
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+    box-shadow: -5px -5px 15px red, -5px 5px 15px yellow, 5px -5px 15px green, 6px 6px 15px blue;
+  }
+
+
+  .Tr_R-Day {
+    border: 10px solid transparent; 
+    border-left: 10px solid aqua;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .Tr_R-Day:hover{
+    /* box-shadow: 1px 1px 1px rgb(24, 216, 174), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px red;
+     */    
+     border-left: 10px solid green;      
+     border-radius: 30px;     
+     box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+     box-shadow: -5px -5px 15px red, -5px 5px 15px yellow, 5px -5px 15px green, 6px 6px 15px blue;
+    
+   }
+
+   .Tr_R-Week {
+     
+    border: 10px solid transparent; 
+    border-left: 10px solid aqua;
+    margin: 5px 5px 5px 5px;
+    
+    /*width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    /*border-left: 0px solid transparent;*/
+    /*border-right: 19px solid transparent;
+    border-bottom: 30px solid #de34f7;
+    margin: 10px auto;    
+    margin: 5px 5px 5px 5px;*/
+  }
+  .Tr_R-Week:after{
+    /*content: 'quot';
+    
+    /*width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #de34f7;
+    margin: 30px 0 0 -50px;*/
+    content: '';
+    position: absolute;
+
+    border: 10px solid transparent; 
+    border-left: 10px solid aqua;
+    margin: -10px 5px 5px -2px;
+  }
+
+  .Tr_R-Week:hover{
+    /* box-shadow: 1px 1px 1px rgb(24, 216, 174), -5px -5px 5px rgba(255,255,255,0.5), -5px -5px 5px red;
+     */    
+     border-left: 10px solid green;      
+     border-radius: 30px;     
+     box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+     box-shadow: -5px -5px 15px red, -5px 5px 15px yellow, 5px -5px 15px green, 6px 6px 15px blue;
+    
+   }
+
+   
+   .Tr_R-Day1:after{
+     transform: rotate(-45deg);
+     position: absolute;
+     content: '';
+     height: calc(100%  1.414); /* using Pythogras theorem */
+     width: calc(100%  1.414); /* using Pythogras theorem */
+     transform: rotate(-45deg);
+     transform-origin: left top;
+     background: blue;
+     transition: all 1s;
+   }
+
+   .Tr_R-Day1:hover:after{
+     transform: rotate(0deg);
+   }
+
+/*
+   .Tr_R-Day:before {
+    box-shadow: inset 0 20px 0 rgba(0, 250, 250, 0.6), inset 20px 0 0 rgba(0, 200, 200, 0.6), inset 0 -20px 0 rgba(0, 150, 200, 0.6), inset -20px 0 0 rgba(0, 200, 250, 0.6);
+    animation: Tr_R-Day-before 2s -0.5s linear infinite;
+  }
+  .Tr_R-Day:after {
+    box-shadow: inset 0 20px 0 rgba(250, 250, 0, 0.6), inset 20px 0 0 rgba(250, 200, 0, 0.6), inset 0 -20px 0 rgba(250, 150, 0, 0.6), inset -20px 0 0 rgba(250, 100, 0, 0.6);
+    animation: Tr_R-Day-after 2s -0.5s linear infinite;
+  }
+  @keyframes Tr_R-Day-after {
+    0% {transform: rotateZ(0deg) scaleX(1) scaleY(1);}
+    50% {transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);}
+    100% {transform: rotateZ(360deg) scaleX(1) scaleY(1);}
+  }
+  @keyframes Tr_R-Day-before {
+    0% {transform: rotateZ(0deg) scaleX(1) scaleY(1);}
+    50% {transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);}
+    100% {transform: rotateZ(-360deg) scaleX(1) scaleY(1);}
+  }
+/*
+   .rotate-shadows {
+    width: 22px;
+    height: 22px;
+    position: relative;
+
+    
+  }
+  .rotate-shadows:after,
+  .rotate-shadows:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center center;
+  }
+  .rotate-shadows:before {
+    box-shadow: inset 0 20px 0 rgba(0, 250, 250, 0.6), inset 20px 0 0 rgba(0, 200, 200, 0.6), inset 0 -20px 0 rgba(0, 150, 200, 0.6), inset -20px 0 0 rgba(0, 200, 250, 0.6);
+    animation: rotate-before 2s -0.5s linear infinite;
+  }
+  .rotate-shadows:after {
+    box-shadow: inset 0 20px 0 rgba(250, 250, 0, 0.6), inset 20px 0 0 rgba(250, 200, 0, 0.6), inset 0 -20px 0 rgba(250, 150, 0, 0.6), inset -20px 0 0 rgba(250, 100, 0, 0.6);
+    animation: rotate-after 2s -0.5s linear infinite;
+  }
+  @keyframes rotate-after {
+    0% {transform: rotateZ(0deg) scaleX(1) scaleY(1);}
+    50% {transform: rotateZ(180deg) scaleX(0.82) scaleY(0.95);}
+    100% {transform: rotateZ(360deg) scaleX(1) scaleY(1);}
+  }
+  @keyframes rotate-before {
+    0% {transform: rotateZ(0deg) scaleX(1) scaleY(1);}
+    50% {transform: rotateZ(-180deg) scaleX(0.95) scaleY(0.85);}
+    100% {transform: rotateZ(-360deg) scaleX(1) scaleY(1);}
+  }
+  */
+  
+  
+  
+  

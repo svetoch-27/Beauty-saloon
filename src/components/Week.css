@@ -1,0 +1,44 @@
+.Week__Week {
+    text-align: center;
+    /*border: 1px solid green;*/
+    
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    /*background-color:rgb(221, 79, 157);*/
+    
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3), -1px -1px 10px rgba(255,255,255,0.5);
+
+    
+  }
+
+.Week__Days {
+  text-align: center;
+  /*border: 10px solid red;*/
+  
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  /*background-color:rgb(245, 171, 212);*/
+  justify-content: space-between;
+ 
+
+  
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.Day {
+  text-align: center;
+  border: 10px solid blue;
+  width: 70px;
+  border-radius: 10px;
+  flex-direction: column;
+  /*background-color:rgb(205, 101, 202);*/
+  justify-content: space-between;
+ 
+
+  
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}

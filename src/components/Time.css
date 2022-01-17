@@ -1,0 +1,55 @@
+.Time {
+    text-align: center;
+    border: 5px solid yellow;
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+
+    
+    /*background-color:rgb(248, 118, 12);*/
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    color:darkslategray
+  }
+
+.Time__ok
+{
+    font-size: 14px;
+    background-color:aqua;
+    border: 1px solid yellow;
+    margin: 10px 5px 5px 5px;
+    
+    color:darkslategray;
+   
+    border-radius: 10px;
+    height: 20px;
+    width: 60px;
+}
+
+.Time__no{
+    background-color: red;
+    border: 3px solid yellow;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 20px;
+    width: 60px;
+    color:darkslategray;
+}
+
+button:hover {    
+    color: #ee4d0e;
+    text-shadow: 0px -2px 4px #f3eeee, 0px -2px 10px #7f8007, 0px -10px 10px #b98435, 0px -20px 10px #80380d;
+    
+    /*
+    background-image:
+    radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+    radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
+    */
+    border: 1px solid rgb(217, 255, 47);
+    border-radius: 3px;
+    box-shadow: 0 0 5px 5px red;
+    
+    /*background-color:rgb(248, 118, 12);*/
+    /*background-color: #282c34;*/
+  }

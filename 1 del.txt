@@ -1,0 +1,170 @@
+const [state, setState] = useState({});
+    const [typeService, setTypeService] = useState([]);
+    const [viewService, setViewService] = useState(0);
+    const [specialist, setSpecialist] = useState();
+
+    const onChangeTask = () => {};
+    const onDeleteTask = () => {};
+    const onRestoreTask = () => {};
+
+
+    const defaultTodos = [
+        {
+          id: 1,
+          title:'Задача 1',
+          completed: false,
+        },
+        {
+          id: 2,
+          title:'Задача 2',
+          completed: false,
+        },
+        {
+          id: 3,
+          title:'Задача 3',
+          completed: false,
+        },
+        {
+          id: 4,
+          title:'Задача 4',
+          completed: true,
+        },
+      ];
+      //setSpecialist(specialist + 0); 
+      //setViewService(1);
+      //setTypeService(defaultTodos);
+
+    /*let newItem = {
+        idType: 1,
+        nameType: 'Эстетика лица',
+    };
+
+    if (typeService) {
+        setTypeService([...typeService, newItem]);
+    }
+    else{
+        setTypeService([newItem]);
+    };
+
+    setTypeService('1');
+    /*setTypeService({idType: 1});
+   /* setTypeService([
+            {
+                idType: 1,
+                nameType: 'Эстетика лица',
+            }
+        ]
+            );
+            /*,
+            {
+                idType: 2,
+                nameType: 'Эстетика тела',
+            },
+            {
+                idType: 3,
+                nameType: 'Ногтевой сервис',
+            },
+            {
+                idType: 4,
+                nameType: 'Парикмахерские услуги',
+            }
+        ]
+    );*/
+
+
+
+
+
+
+    let state1 = {
+        type: [],
+        view: [],
+        specialist: [
+            {
+                name: 'Иванова Марина Иванова',
+                class: 1,
+                typeid: 1,
+                viewid: 1,
+            },
+            {
+                name: 'Иванова Марина Иванова',
+                class: 1,
+                typeid: 1,
+                viewid: 1,
+            },
+            {
+                name: 'Горнякова Марина Иванова',
+                class: 1,
+                typeid: 1,
+                viewid: 1,
+            },
+            {
+                name: 'Ларионова Марина Иванова',
+                class: 1,
+                typeid: 1,
+                viewid: 2,
+            },
+            {
+                name: 'Онова Марина Иванова',
+                class: 1,
+                typeid: 2,
+                viewid: 1,
+            }
+        ]
+    };
+    
+    
+    const data = [
+        {
+            typeid: 1,
+            name: 'Эстетика лица',
+            type: [
+                {
+                    id: 1,
+                    name: 'Пилинг',
+                    price: 100
+                },
+                {
+                    id: 2,
+                    name: 'Визаж',
+                    price: 100
+                },
+                {
+                    id: 3,
+                    name: 'Массаж',
+                    price: 100
+                },
+                {
+                    id: 4,
+                    name: 'Архитектура бровей',
+                    price: 100
+                },
+            ]
+        },
+        {
+            typeid: 2,
+            name: 'Ногтевой сервис',
+            type: [
+                {
+                    id: 1,
+                    name: 'Маникюр',
+                    price: 100
+                },
+                {
+                    id: 2,
+                    name: 'Педикюр',
+                    price: 100
+                },
+                {
+                    id: 3,
+                    name: 'Наращивание ногтей',
+                    price: 100
+                },
+                {
+                    id: 4,
+                    name: 'Покрытие SHELLIAG',
+                    price: 100
+                },
+            ]
+        }
+    ];

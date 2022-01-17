@@ -1,0 +1,81 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+}
+.Main {
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(90deg, rgb(145, 45, 226) 0%, #282c34 100%);
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-image: url(C:\react\6\my-app\img\background.jpg);*/
+  }
+
+  .Main__item {
+    text-align: center;
+    /*border: 1px solid transparent;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   /* 
+    background: linear-gradient(90deg, rgb(145, 45, 226) 0%, #282c34 100%);
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+*/
+  }
+  
+ 
+
+  
+  .Main__header > div{    
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(255,255,255,0.5);
+  
+  }
+  
+  .Main__body > div{    
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(255,255,255,0.5);
+    }
+  
+  .Main__footer > div{    
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3), -1px -1px 1px rgba(255,255,255,0.5);
+    }
+
+
+
+
+
+  .Field {
+    width: 50px;
+  }
+
+  .logo{
+    /*
+  background-attachment: fixed;
+  background-position: center center;*/
+  background-repeat: no-repeat;
+  object-fit: none;
+  background-image: url(C:\react\6\my-app\src\img\23.jpg);
+  text-align: center center;
+  height: 100px;
+  width: 100%;
+
+  }
+
+  
